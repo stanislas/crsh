@@ -1,3 +1,3 @@
-#!/bin/sh
+#!{{crsh-shell}}
 
-exec drip -jar ~/Library/soft/crsh/crsh-0.1.0-standalone.jar "$@"
+exec {{crsh-java}} -jar {{target-path}}/{{name}}-{{version}}-standalone.jar "$@"
